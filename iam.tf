@@ -1,5 +1,5 @@
 resource "aws_iam_user" "wedding_deployer" {
-  name = "wedding-s3-deployer"
+  name = "ian-s3-deployer"
 }
 
 resource "aws_iam_policy" "wedding_s3_sync_policy" {
