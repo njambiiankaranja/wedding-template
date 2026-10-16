@@ -14,7 +14,7 @@ resource "aws_iam_policy" "wedding_s3_sync_policy" {
         Action = [
           "s3:ListBucket"
         ]
-        Resource = "arn:aws:s3:::wedding-template-static-hosting-20261016124439"
+        Resource = "arn:aws:s3:::wedding-template-static-hosting-20261016190256"
       },
       {
         Effect = "Allow"
@@ -23,7 +23,7 @@ resource "aws_iam_policy" "wedding_s3_sync_policy" {
           "s3:GetObject",
           "s3:DeleteObject"
         ]
-        Resource = "arn:aws:s3:::wedding-template-static-hosting-20261016124439/*"
+        Resource = "arn:aws:s3:::wedding-template-static-hosting-20261016190256/*"
       }
     ]
   })
